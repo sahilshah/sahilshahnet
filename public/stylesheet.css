@@ -1,5 +1,5 @@
 body {
-	font: 13px Verdana, sans-serif;
+	font: 14px Verdana, sans-serif;
 }
 h1 {
 	font: 21px Georgia, "Times New Roman", Times, serif;
@@ -14,13 +14,31 @@ p {
 	padding-left: 20px;
 }
 .title{
+	width:100%;
+	font-size: 35px;
+	font-family: "Century Gothic Regular", CenturyGothic, AppleGothic, sans-serif;
+	/*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
 	padding-top: 30px;
-	padding-left: 30px;
+	padding-left: 60px;
+	padding-bottom: 10px;
+}
+.sub-title{
+	font-size: 16px;
+	/*font-style: u*/
 }
 .photo{
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-top: 0px;
+	vertical-align: top;
 }
-.text{
-	padding-left: 10px;
+.left-pane{
+	/*padding-left: 50px;*/
+	/*padding-right: 20px;*/
+	vertical-align: top;
+	width:20%;
+	padding-right: 20px;
+}
+.right-pane{
+	padding-left: 20px;
 }
