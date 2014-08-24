@@ -1,0 +1,26 @@
+body {
+	font: 13px Verdana, sans-serif;
+}
+h1 {
+	font: 21px Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+	font: 18px Georgia, "Times New Roman", Times, serif;
+}
+p {
+    max-width: 500px;
+}
+.full{
+	padding-left: 20px;
+}
+.title{
+	padding-top: 30px;
+	padding-left: 30px;
+}
+.photo{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.text{
+	padding-left: 10px;
+}
