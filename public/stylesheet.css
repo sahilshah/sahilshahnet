@@ -41,6 +41,7 @@ p {
 }
 .center-pane{
 	padding-left: 20px;
+	text-align: left;
 }
 .twitter-pane{
 	padding-left: 100px;
