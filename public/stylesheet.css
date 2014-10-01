@@ -43,7 +43,10 @@ p {
 	padding-left: 20px;
 	text-align: left;
 }
-.twitter-pane{
+.widgets-pane{
 	padding-left: 100px;
+}
+.so-widget{
+	padding-bottom: 10px;
 }
 
