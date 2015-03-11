@@ -16,6 +16,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Welcome to Sahil's webpage</title>
 	<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+  <link rel="import" href="common.html">
 </head>
 <body class="full">
 	<table>
@@ -28,14 +29,14 @@
 		<td>
 		<table>
 			<tr>
-				<td class="left-pane">
-					<ul>
-					<li><a href="/">About</a></li>
-					<li><a href="projects">Projects</a></li>
-					<li><a href="sahil-resume.pdf" target="_blank">Resume</a></li>
-					<li><a href="contact">Contact</a></li>
-					</ul>
-				</td>
+        <td class="left-pane">
+        <script>
+          var link = document.querySelector('link[rel="import"]');
+          var content = link.import;
+          var el = content.querySelector('.menu');
+          document.querySelector('.left-pane').appendChild(el.cloneNode(true));
+        </script>
+        </td>
 				<td class="center-pane" valign="top">
 					<p class="sub-title">
 						<u>About</u>
