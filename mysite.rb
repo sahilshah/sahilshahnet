@@ -11,3 +11,7 @@ end
 get '/projects' do
 	send_file 'public/projects.html'
 end
+
+get '/writings' do
+  send_file 'public/writings.html'
+end
