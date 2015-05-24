@@ -15,3 +15,7 @@ end
 get '/writings' do
   send_file 'public/writings.html'
 end
+
+get '/reading_list' do
+  send_file 'public/readings.html'
+end
