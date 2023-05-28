@@ -26,6 +26,7 @@ PLATFORMS
 DEPENDENCIES
   sinatra
   thin
+  tilt
 
 RUBY VERSION
    ruby 2.7.0p0
